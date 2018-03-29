@@ -19,7 +19,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            Contains the results of one token acquisition operation.
+            하나의 토큰 획득 작업의 결과를 포함합니다.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -44,7 +44,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the Access Token requested.
+            요청 된 액세스 토큰을 가져옵니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -72,9 +72,9 @@
       <Parameters />
       <Docs>
         <summary>
-            Creates authorization header from authentication result.
+            인증 결과로부터 인증 헤더를 생성합니다.
             </summary>
-        <returns>Created authorization header</returns>
+        <returns>생성 된 인증 헤더</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -97,9 +97,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the point in time in which the Access Token returned in the Token property ceases to be valid.
-            This value is calculated based on current UTC time measured locally and the value expiresIn received from the
-            service.
+            Token 속성에서 반환 된 액세스 토큰이 유효하지 않은 시점을 가져옵니다.
+            이 값은 로컬에서 측정 된 UTC 시간과 서비스에서 수신한 expiresln 값을 기반으로 계산됩니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -125,7 +124,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the entire Id Token if returned by the service or null if no Id Token is returned.
+            서비스에 의해 반환된 경우 전체 Id Token을 얻고 반환된 Id Token이 없으면 null을 얻습니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -150,7 +149,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the scope values returned from the service.
+            서비스에서 반환된 범위 값을 가져옵니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -176,8 +175,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets an identifier for the tenant the token was acquired from. This property will be null if tenant information is
-            not returned by the service.
+            토큰을 취득한 테넌트의 식별자를 가져옵니다. 이 속성은 테넌트 정보가 서비스에 의해 반환되지 않으면 null이 됩니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -203,7 +201,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the Unique Id of the user.
+            사용자의 고유 Id를 가져옵니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -229,8 +227,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the user object. Some elements in User might be null if not returned by the
-            service. It can be passed back in some API overloads to identify which user should be used.
+            사용자 개체를 가져옵니다. 서비스에서 반환하지 않은 경우 User의 일부 요소가 null 일 수 있습니다. 어떤 사용자를 사용해야할지 식별하기 위해 오버로드된 일부 API를 다시 전달니다.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
